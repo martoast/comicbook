@@ -1,5 +1,5 @@
 <template>
-  <div class="h-100" style="background-color: #000 !important">
+  <div style="background-color: #000 !important; height: 100vh">
     <client-only>
       <Flipbook
         class="flipbook"
@@ -22,17 +22,13 @@
       <b-container>
         <div class="text-center">
           <h2 class="py-3" style="font-family: 'Market'; font-size: 42px">
-            Comic book Phase 1
+            Comic book Vol.1
           </h2>
 
           <p style="font-family: 'Champange'; font-size: 22px" class="pb-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id
             interdum urna, ut egestas ex. Curabitur est ex, vehicula a dolor
-            vitae, varius mattis turpis. Aliquam gravida ac lorem vel semper.
-            Mauris hendrerit tortor ut nisi eleifend, sed condimentum metus
-            sollicitudin. In interdum eros bibendum lectus molestie dictum.
-            Quisque blandit, urna vel ullamcorper posuere, nunc dolor fermentum
-            urna, non consequat arcu erat ac arcu.
+            vitae, varius mattis turpis.
           </p>
 
           <b-btn
@@ -47,7 +43,7 @@
             @click="onEnterComic"
             style="font-family: 'Market'; background-color: black"
           >
-            Enter The Comicbook
+            Enter
           </b-btn>
 
           <h2
@@ -77,11 +73,11 @@ export default {
     return {
       pages: [
         null,
-        "https://images.pexels.com/photos/4380970/pexels-photo-4380970.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
-        "https://images.pexels.com/photos/2709385/pexels-photo-2709385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-        "https://images.pexels.com/photos/2709385/pexels-photo-2709385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-        "https://images.pexels.com/photos/3081752/pexels-photo-3081752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-        "https://images.pexels.com/photos/3083250/pexels-photo-3083250.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "/images/0.png",
+        "/images/1.png",
+        "/images/2.png",
+        "/images/3.png",
+        "/images/4.png",
       ],
       ethereum: null,
       metamaskIsInstalled: false,
