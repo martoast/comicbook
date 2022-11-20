@@ -3,6 +3,7 @@
      <client-only>
         <Flipbook
            class="flipbook"
+           :zooms="zooms"
            :pages="pages"
            ref="flipbook"
            >
@@ -113,6 +114,7 @@ export default {
         web3: null,
         errorMsg: "",
       },
+      zooms: [1]
     };
   },
   mounted() {
