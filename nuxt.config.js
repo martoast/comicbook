@@ -2,7 +2,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: "static",
   head: {
-    title: "comicbook",
+    title: "THE HEIST - ComicBook Vol.1",
     htmlAttrs: {
       lang: "en",
     },
