@@ -21,24 +21,41 @@
         >
         <b-container>
            <div class="text-center">
-              <h2 class="py-3" style="font-family: 'wordofgod'; font-size: 42px">
+              <h2 class="py-3" style="font-family: 'Market'; font-size: 42px">
                  Comic book Vol.1
               </h2>
-              <p style="font-family: 'wordofgod'; font-size: 22px" class="pb-3">
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id
-                 interdum urna, ut egestas ex. Curabitur est ex, vehicula a dolor
-                 vitae, varius mattis turpis.
+              <p style="font-family: 'Champange'; font-size: 22px" class="pb-1">
+                "This is a story about coping with what life throws at you. It is my outlet, 
+                allowing me to channel my emotions through the trauma and keep my mental health in check throughout uncertainty.
+              </p>
+              <p style="font-family: 'Champange'; font-size: 22px" class="pb-1">
+                It is what inspired the images for the project ‘The Heist’.
+              </p>
+              <p style="font-family: 'Champange'; font-size: 22px" class="pb-1">
+                What was the trigger? Well, welcome to Volume 1.
+              </p>
+
+              <p style="font-family: 'Champange'; font-size: 22px" class="pb-1">
+                The many masks we all wear, and conversations we have at different times of our lives based on what we are going through, yet… it is always ‘us’ on the inside.” - God
+              </p>
+
+              <p style="font-family: 'Market'; font-size: 22px" class="pb-1">
+                A WOLF IN SHEEP’S CLOTHING.
+              </p>
+
+              <p style="font-family: 'Champange'; font-size: 12px" class="pb-3">
+                *Please note: This digital Comic Book is property and copyright of MGMS. As a holder of The Heist NFT you have access to view this Comic Book, and will be subject to special benefits derived and related to it. Owning a Heist NFT does not give the right to reproduce, screenshot, or share on social media or otherwise.
               </p>
               <b-btn
                  v-if="!initialState.account"
                  @click="connectWallet"
-                 style="font-family: 'wordofgod'; background-color: black; font-size:26;"
+                 style="font-family: 'Market'; background-color: black; font-size:26;"
                  >Connect wallet</b-btn
                  >
               <b-btn
                  v-else-if="initialState.amount_holding > 0"
                  @click="onEnterComic"
-                 style="font-family: 'wordofgod'; background-color: black; font-size:26;"
+                 style="font-family: 'Market'; background-color: black; font-size:26;"
                  >
                  Enter
               </b-btn>
