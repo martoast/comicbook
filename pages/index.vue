@@ -139,6 +139,8 @@ export default {
 
     this.ethereum = window.ethereum;
     this.metamaskIsInstalled = this.ethereum && this.ethereum.isMetaMask;
+
+    document.addEventListener('contextmenu', event => event.preventDefault());
   },
   methods: {
     async connectWallet() {
